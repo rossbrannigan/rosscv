@@ -1,7 +1,7 @@
 baseURL: https://hugo-toha.github.io
 
 languageCode: en-us
-title: "CV Ross Brannigan MBA"
+title: "CV of Ross Brannigan, MBA"
 
 # Use Hugo modules to add theme
 module:
@@ -144,7 +144,7 @@ params:
       services:
         # Google Analytics
         google:
-          id: G-H4LBG7NDFZ
+          id: G-88DG92TXDZ
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>
