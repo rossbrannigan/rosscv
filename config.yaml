@@ -1,7 +1,7 @@
 baseURL: https://hugo-toha.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "CV Ross Brannigan MBA"
 
 # Use Hugo modules to add theme
 module:
@@ -24,7 +24,7 @@ languages:
     languageName: English
     weight: 1
   bn:
-    languageName: বাংলা
+    languageName: Thai
     weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
