@@ -1,0 +1,309 @@
+repo_name: rossbrannigan/rosscv
+report_id: c31f5a98abac7cc70cebb480d910fc78
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-04T08:37:01+00:00'
+requested_by: rossbrannigan
+provider: github
+branch: main
+detected_tools_count: 21
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Emruz Hossain
+  last_updated_on: 2023-01-05 20:07:01.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: hossainemruz
+  last_updated_on: 2023-01-27 17:28:38.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Emruz Hossain
+  last_updated_on: 2023-01-05 20:07:01.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Emruz Hossain
+  last_updated_on: 2023-01-05 20:07:01.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Emruz Hossain
+  last_updated_on: 2023-01-05 20:07:01.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/.github/workflows/merge-to-main.yml
+  detection_source: ".github/workflows/merge-to-main.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-31 08:02:54.000000000 Z
+- name: highlight.js
+  description: Syntax highlighter in JavaScript
+  website_url: https://highlightjs.org/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/6888/c17e7d9688d86bd9f9506ec1fbd6d200_400x400.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Emruz Hossain
+  last_updated_on: 2023-01-05 20:07:01.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Emruz Hossain
+  last_updated_on: 2023-01-05 20:07:01.000000000 Z
+- name: Netlify
+  description: Build, deploy and host your static site or app with a drag and drop
+    interface and automatic delpoys from GitHub or Bitbucket
+  website_url: https://www.netlify.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/netlify.toml
+  detection_source: netlify.toml
+  last_updated_by: Emruz Hossain
+  last_updated_on: 2020-11-01 10:08:58.000000000 Z
+- name: Font Awesome
+  description: The internet's most popular icon toolkit
+  website_url: https://fontawesome.com/
+  version: 6.2.1
+  open_source: true
+  hosted_saas: false
+  category: Design
+  sub_category: Fonts
+  image_url: https://img.stackshare.io/service/3244/1_Mr1Fy00XjPGNf1Kkp_hWtw_2x.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Emruz Hossain
+  last_updated_on: 2023-01-05 20:07:01.000000000 Z
+- name: katex
+  website_url: https://github.com/Khan/KaTeX
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6858/15455.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Emruz Hossain
+  last_updated_on: 2023-01-05 20:07:01.000000000 Z
+- name: katex
+  description: Fast math typesetting for the web
+  package_url: https://www.npmjs.com/katex
+  version: 0.16.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18250/default_c6b51515d4a1dde78342d80e969e295cabf381ac.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Emruz Hossain
+  last_updated_on: 2023-01-05 20:07:01.000000000 Z
+  vulnerabilities:
+  - name: KaTeX's maxExpand bypassed by `\edef`
+    cve_id: CVE-2024-28243
+    cve_url: https://github.com/advisories/GHSA-64fm-8hw2-v72w
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 0.16.10
+  - name: KaTeX's maxExpand bypassed by Unicode sub/superscripts
+    cve_id: CVE-2024-28244
+    cve_url: https://github.com/advisories/GHSA-cvr6-37gx-v8wc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 0.16.10
+  - name: KaTeX's `\includegraphics` does not escape filename
+    cve_id: CVE-2024-28245
+    cve_url: https://github.com/advisories/GHSA-f98w-7cxr-ff2h
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 0.16.10
+  - name: KaTeX missing normalization of the protocol in URLs allows bypassing forbidden
+      protocols
+    cve_id: CVE-2024-28246
+    cve_url: https://github.com/advisories/GHSA-3wc5-fcw2-2329
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 0.16.10
+- name: "@fortawesome/fontawesome-free"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-free
+  version: 6.2.1
+  license: CC-BY-4.0,OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17170/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Emruz Hossain
+  last_updated_on: 2023-01-05 20:07:01.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: hossainemruz
+  last_updated_on: 2023-01-27 17:28:38.000000000 Z
+- name: eslint-config-standard
+  description: JavaScript Standard Style - ESLint Shareable Config
+  package_url: https://www.npmjs.com/eslint-config-standard
+  version: 17.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: hossainemruz
+  last_updated_on: 2023-01-27 17:28:38.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.27.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: hossainemruz
+  last_updated_on: 2023-01-27 17:28:38.000000000 Z
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 6.1.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: hossainemruz
+  last_updated_on: 2023-01-27 17:28:38.000000000 Z
+- name: fuse.js
+  description: Lightweight fuzzy-search
+  package_url: https://www.npmjs.com/fuse.js
+  version: 6.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17405/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Emruz Hossain
+  last_updated_on: 2023-01-05 20:07:01.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: hossainemruz
+  last_updated_on: 2023-01-27 17:28:38.000000000 Z
+- name: postcss-cli
+  description: CLI for PostCSS
+  package_url: https://www.npmjs.com/postcss-cli
+  version: 8.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16326/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/rossbrannigan/rosscv/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: hossainemruz
+  last_updated_on: 2023-01-27 17:28:38.000000000 Z
